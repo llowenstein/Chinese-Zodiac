@@ -1,13 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head> 
-<title>Contact Us</title> 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Contact Us</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> \
+	<link rel="stylesheet" href="./style/ChineseZodiac.css">
 </head> 
 <body> 
-<a href="index.html">Home</a> &nbsp; 
-<a href="12signs.html">12 Signs</a> &nbsp; 
-<a href="contactus.html">Contact Us</a>
-<div>..... add page content here .....</div> 
+	<a href="index.html">Home</a> &nbsp; 
+	<a href="12signs.html">12 Signs</a> &nbsp; 
+	<a href="contactus.html">Contact Us</a>
+<div>
+	<form action = "http://php.vncvr.ca/zodiac/" method = "post">
+		<input type="hidden" name="Student1Name" id="Luli Lowenstein"/>
+		<input type="hidden" name="Student2Name" id="Yashar Nesvaderani"/>
+		<input type="hidden" name="Set" id="1D"/>
+		<p>Name: <input type="text" maxlength = "30"/></p>
+		<p>Email Address: <input type="text" maxlength = "30" name = "email"/></p>		
+		<p>Comment: <textarea type="text" style="height:100px;width:300px" maxlength = "250" 
+		name ="comment"></textarea></p>
+		<p><input type="submit" name="submit"/></p>
+	</form>
+</div> 
 </body> 
 </html>
