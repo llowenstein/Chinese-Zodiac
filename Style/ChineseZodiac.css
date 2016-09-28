@@ -1,6 +1,23 @@
 body {
-	font-family: arial
+	font-family: arial;
+	background-color: #eee;
+	background-image: url("../Images/background2.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-attachment: fixed;
 }
- div {
 
- 	}
+#symbol{
+	width: 80%;
+	height: auto;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+
+#signs{
+	float: right;
+}
+
