@@ -4,22 +4,36 @@ body {
 	background-image: url("../Images/woodBackgroundWithPaper.png");
 	background-repeat: repeat;
 	height: 100%;
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
-#symbol{
+#header {
+	text-align: center;
+}
+
+#symbol {
 	width: 50%;
 	height: auto;
 	margin: auto;
 }
 
-#signs{
+#signs {
 	width: 40%;
 	height: auto;
 	margin:auto;
 	text-align: right;
+}
+
+table {
+	margin: 0 auto;
+}
+
+textarea {
+	height: 100px;
+	width: 300px;
 }
 
 #bar{
