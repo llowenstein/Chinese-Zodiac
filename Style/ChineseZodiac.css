@@ -5,9 +5,14 @@ body {
 	background-repeat: repeat;
 	height: 100%;
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
 	background-size: cover;
 	background-attachment: fixed;
+	text-align: center;
+}
+
+img{
+	padding: 5px;
 }
 
 #header {
@@ -15,16 +20,15 @@ body {
 }
 
 #symbol {
-	width: 50%;
+	width: 60%;
 	height: auto;
 	margin: auto;
 }
 
 #signs {
-	width: 40%;
+	width: 80%;
 	height: auto;
-	margin:auto;
-	text-align: right;
+	margin: auto;
 }
 
 table {
