@@ -1,8 +1,8 @@
 body {
 	font-family: arial;
 	background-color: #eee;
-	background-image: url("../Images/woodBackground.png");
-	background-repeat: no-repeat;
+	background-image: url("../Images/woodBackgroundWithPaper.png");
+	background-repeat: repeat;
 	height: 100%;
 	width: 100%;
 	background-size: cover;
@@ -10,17 +10,21 @@ body {
 }
 
 #symbol{
-	width: 80%;
+	width: 50%;
 	height: auto;
-	position:absolute;
-	top:0px;
-	right:0px;
+	margin: auto;
 }
 
 #signs{
-	position:absolute;
-    width:100%;
-    bottom:0;
-    text-align:center;
+	width: 40%;
+	height: auto;
+	margin:auto;
+	text-align: right;
 }
 
+#bar{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	text-align: left;
+}
