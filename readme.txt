@@ -1,5 +1,5 @@
 # Chinese-Zodiac
-Luli Lowenstein A00946133, Yashar Nesvaderani A00984009.
+Luli Lowenstein A00946133, Yashar Nesvaderani A00984009, Set 1D
 
 We were able to complete the main page, contact us page, 12 sign spage, 
 and the individual page for each of the signs.
