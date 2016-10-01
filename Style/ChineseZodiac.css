@@ -5,14 +5,13 @@ body {
 	background-repeat: repeat;
 	height: 100%;
 	width: 80%;
-	margin: auto;
 	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
 }
 
 img{
-	padding: 5px;
+	padding: 20px;
 }
 
 #header {
@@ -45,4 +44,10 @@ textarea {
 	height: auto;
 	margin: auto;
 	text-align: left;
+}
+
+ul#list{
+	width: 5%;
+	padding: 0;
+	margin: 0;
 }
