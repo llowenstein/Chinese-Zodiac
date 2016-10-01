@@ -17,6 +17,12 @@ body {
 	margin: auto;
 }
 
+.summary{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
 img{
 	padding: 5px;
 }
@@ -50,6 +56,10 @@ textarea {
 	height: auto;
 	margin: auto;
 	text-align: left;
+}
+
+.title{
+	font-weight: bold;
 }
 
 #footer {
