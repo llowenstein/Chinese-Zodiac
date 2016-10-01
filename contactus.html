@@ -7,8 +7,8 @@
 </head> 
 <body>
 	<div id="symbol">
-		<img src="Images/ChineseZodiacBanner.png"></img>
-	</div> 
+		<a href="index.html"><img src="Images/ChineseZodiacBanner.png" alt="ChineseNewYear"></img></a>
+	</div>
 	<div id="header">
 		<a href="index.html"><img src = "Images/HomePage.png" alt="Home Page"></img></a> &nbsp; 
 		<a href="12signs.html"><img src = "Images/12signs.png" alt="12 Signs"></img></a> &nbsp; 
@@ -16,9 +16,11 @@
 	</div>
 	<div id="contact">
 		<form action = "http://php.vncvr.ca/zodiac/" method = "post">
+			<p>
 			<input type="hidden" name="Student1Name" value="Luli Lowenstein"/>
 			<input type="hidden" name="Student2Name" value="Yashar Nesvaderani"/>
 			<input type="hidden" name="Set" value="1D"/>
+			</p>
 			<table>
 				<tr>
 					<td><h1>Contact Us</h1></td>
@@ -30,10 +32,12 @@
 					<td align="left">Email Address:</td> <td align="left"><input type="text" maxlength = "30" name = "Email"/></td>
 				</tr>		
 				<tr>
-					<td align="left">Comment:</td> <td><textarea name ="Comment"></textarea></td>
+					<td align="left">Comment:</td> <td><textarea name ="Comment"
+					rows="2" cols="2"></textarea></td>
 				</tr>
 				<tr>
-					<td><input type="submit" name="send"/></td>
+					<td></td>
+					<td align="left"><input type="submit" name="send"/></td>
 				</tr>
 			</table>
 		</form>
