@@ -2,8 +2,7 @@
 <html lang="en"> 
 <head> 
 	<title>Contact Us</title> 
-	<meta charset="utf-8">
-	<div class="container">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="./Style/bootstrap.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="./style/ChineseZodiac.css" />
 </head> 
@@ -17,33 +16,32 @@
 			<div class="col-md-4"><a href="12signs.html"><img src = "Images/12signs.png" alt="12 Signs" /></a> </div>
 			<div class="col-md-4"><a href="contactus.html"><img src= "Images/ContactUs.png" alt="Contact Us" /></a> </div>
 		</div>
-	<div id="contact">
+		<div id="contact">
+		<h1>Contact Us</h1>
 		<form action = "http://php.vncvr.ca/zodiac/" method = "post">
-			<p>
-			<input type="hidden" name="Student1Name" value="Luli Lowenstein"/>
-			<input type="hidden" name="Student2Name" value="Yashar Nesvaderani"/>
-			<input type="hidden" name="Set" value="1D"/>
-			</p>
-			<table>
-				<tr>
-					<td><h1>Contact Us</h1></td>
-				</tr>
-				<tr>
-					<td align="left">Name:</td><td align="left"><input type="text" maxlength = "30" name="Name"/></td>
-				</tr>
-				<tr>
-					<td align="left">Email Address:</td> <td align="left"><input type="text" maxlength = "30" name = "Email"/></td>
-				</tr>		
-				<tr>
-					<td align="left">Comment:</td> <td><textarea name ="Comment"
-					rows="2" cols="2"></textarea></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td align="left"><input type="submit" name="send"/></td>
-				</tr>
-			</table>
-		</form>
+	<div class="form-group">
+		<p>
+		<input type="hidden" name="Student1Name" value="Luli Lowenstein"/>
+		<input type="hidden" name="Student2Name" value="Yashar Nesvaderani"/>
+		<input type="hidden" name="Set" value="1D"/>
+		</p>
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" maxlength = "30" placeholder="Enter name" name="Name"/>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" maxlength="30" placeholder="Enter email" name="Email"/>
+			</div>		
+			<div class="form-group" align="left">
+				<label for="comment" >Comment:</label>
+				<textarea name="Comment" rows="2" cols="2"></textarea>
+			</div>
+				<td></td>
+			<button type="submit" name="send"/>Submit</button>
+	</div>
+	</form>
+	</div>
 	<div id="footer">
 		<p><a href='m&#97;i&#108;&#116;o&#58;%79&#97;%&#55;&#51;ha%7293&#64;&#103;&#109;
 			a&#105;%6C&#46;c&#111;m'>Y. Nesvaderani</a> A00984009 <br/>
@@ -53,6 +51,5 @@
 		</p>
 	</div>
 	</div>
-</div> 
 </body> 
 </html>

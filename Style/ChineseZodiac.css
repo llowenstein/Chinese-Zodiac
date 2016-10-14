@@ -2,9 +2,8 @@ body {
 	font-family: arial, sans-serif;
 	background-color: #eee;
 	background-repeat: repeat;
-	height: 100%;
-	width: 80%;
 	margin: auto;
+	width: 80%;
 	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
@@ -12,15 +11,19 @@ body {
 }
 
 .intro {
-	width: 50%;
+	font-size: 20px;
 	text-align: center;
 	margin: auto;
 }
 
 .summary{
-	width: 50%;
+	font-size: 20px;
 	text-align: center;
 	margin: auto;
+}
+
+h3 + p{
+	font-size: 20px;
 }
 
 img{
@@ -31,21 +34,15 @@ img{
 	text-align: center;
 }
 
-}
-
 #signs {
 	width: 80%;
 	height: auto;
 	margin: auto;
 }
 
-table {
-	margin: 0 auto;
-}
-
 textarea {
-	height: 100px;
-	width: 300px;
+	height: auto;
+	width: 100%;
 }
 
 #bar{
