@@ -8,6 +8,9 @@ body {
 	background-attachment: fixed;
 	text-align: center;
 	background-image: url("../Images/paperBackground.png");
+	/*
+	*https://pixabay.com/p-1074131/?no_redirect
+	*/
 }
 
 .intro {
@@ -42,7 +45,7 @@ img{
 
 textarea {
 	height: auto;
-	width: 100%;
+	width: 80%;
 }
 
 #bar{
@@ -63,4 +66,10 @@ textarea {
 	width: 80%;
 	margin: auto;
 	bottom:0;
+}
+
+.form-horizontal {
+	width: 80%;
+	height: auto;
+	margin: auto;
 }

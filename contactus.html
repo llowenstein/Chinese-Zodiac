@@ -2,7 +2,8 @@
 <html lang="en"> 
 <head> 
 	<title>Contact Us</title> 
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="./Style/bootstrap.css" rel="stylesheet"/>
 	<link rel="stylesheet" href="./style/ChineseZodiac.css" />
 </head> 
@@ -18,35 +19,42 @@
 		</div>
 		<div id="contact">
 		<h1>Contact Us</h1>
-		<form action = "http://php.vncvr.ca/zodiac/" method = "post">
-	<div class="form-group">
+	<form class="form-horizontal" action = "http://php.vncvr.ca/zodiac/" method = "post">
 		<p>
 		<input type="hidden" name="Student1Name" value="Luli Lowenstein"/>
 		<input type="hidden" name="Student2Name" value="Yashar Nesvaderani"/>
 		<input type="hidden" name="Set" value="1D"/>
 		</p>
 			<div class="form-group">
-				<label for="name">Name:</label>
-				<input type="text" maxlength = "30" placeholder="Enter name" name="Name"/>
+				<label class="control-label col-sm-2">Name:</label>
+				<div class="col-sm-10">
+					<input type="text" maxlength = "30" placeholder="Enter name" name="Name"/>
+				</div>
 			</div>
 			<div class="form-group">
-				<label for="email">Email:</label>
-				<input type="text" maxlength="30" placeholder="Enter email" name="Email"/>
-			</div>		
-			<div class="form-group" align="left">
-				<label for="comment" >Comment:</label>
-				<textarea name="Comment" rows="2" cols="2"></textarea>
+				<label class="control-label col-sm-2">Email:</label>
+				<div class="col-sm-10">
+					<input type="text" maxlength="30" placeholder="Enter email" name="Email"/>	
+				</div>
 			</div>
-				<td></td>
-			<button type="submit" name="send"/>Submit</button>
-	</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2">Comment:</label>
+				<div class="col-sm-10">
+					<textarea name="Comment" rows="5" cols="5" placeholder="Type a comment"></textarea>
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default" name="send">Submit</button>
+				</div>
+			</div>
 	</form>
 	</div>
 	<div id="footer">
-		<p><a href='m&#97;i&#108;&#116;o&#58;%79&#97;%&#55;&#51;ha%7293&#64;&#103;&#109;
-			a&#105;%6C&#46;c&#111;m'>Y. Nesvaderani</a> A00984009 <br/>
-			<a href='ma&#105;lto&#58;&#37;&#54;C%6Fw%65nstei&#110;&#46;luli&#37;4&#48;
-			gm&#37;61il&#46;c%6Fm'>L. Lowenstein </a>A00946133
+		<p><a href='m&#97;i&#108;&#116;o&#58;%79&#97;%&#55;&#51;ha%7293&#64;&#103;&#109;a&#105;%6C&#46;c&#111;m'>
+			Y. Nesvaderani</a> A00984009 <br/>
+			<a href='ma&#105;lto&#58;&#37;&#54;C%6Fw%65nstei&#110;&#46;luli&#37;4&#48;gm&#37;61il&#46;c%6Fm'>
+			L. Lowenstein </a>A00946133
 			Set 1D
 		</p>
 	</div>
